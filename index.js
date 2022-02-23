@@ -16,6 +16,10 @@ const monApp = Vue.createApp({
 
         displayList(){
             this.view = !this.view;
+        },
+
+        deleteFilm(index){
+            this.allFilms.splice(index, 1);
         }
     }, 
     computed: {
