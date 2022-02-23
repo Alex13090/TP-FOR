@@ -22,6 +22,7 @@ const monApp = Vue.createApp({
             this.allFilms.splice(index, 1);
         }
     }, 
+    
     computed: {
         filmList(){
             if(this.view){
